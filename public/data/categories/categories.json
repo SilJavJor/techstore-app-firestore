@@ -1,0 +1,65 @@
+[
+  {
+    "id" : 1,
+    "name" : "Motherboards",
+    "description" : "",
+    "imageURL": "",
+    "createdAt": ""
+  },
+
+  {
+    "id" : 2,
+    "name" : "Procesadores",
+    "description" : "",
+    "imageURL" : "",
+    "createdAt": ""
+  },
+
+  {
+    "id" : 3,
+    "name" : "Memorias RAM",
+    "description" : "",
+    "imageURL": "",
+    "createdAt": ""
+  },
+
+  {
+    "id" : 4,
+    "name" : "Almacenamiento",
+    "description" : "",
+    "imageURL" : "",
+    "createdAt": ""
+  },
+
+  {
+    "id" : 5,
+    "name" : "Placas de Video",
+    "description" : "",
+    "imageURL" : "",
+    "createdAt": ""
+  },
+
+  {
+    "id" : 6,
+    "name" : "Monitores",
+    "description" : "",
+    "imageURL" : "",
+    "createdAt": ""
+  },
+
+  {
+    "id" : 7,
+    "name" : "Perifericos",
+    "description" : "",
+    "imageURL" : "",
+    "createdAt": ""
+  },
+
+  {
+    "id": 8,
+    "name": "Componentes de PC",
+    "description": "",
+    "imageURL": "",
+    "createdAt": ""
+  }
+]

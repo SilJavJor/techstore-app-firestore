@@ -1,0 +1,23 @@
+/* ==========================================================================
+  Estilos de TeamPage.module.css
+  Descripcion: Estilos para el Alta de miembros del Equipo de la
+    aplicación.
+  Autor: Silvio Jorda
+  Fecha: 2026-09-30
+========================================================================== */
+
+.card {
+  background-color: #1a1a1a !important;
+  border: 1px solid #333333 !important;
+  border-radius: 12px !important;
+  width: 100%;
+  max-width: 650px;
+  color: #ffffff;
+}
+
+.errorText {
+  color: #ff6b6b;
+  font-size: 0.8rem;
+  margin-top: 0.25rem;
+  display: block;
+}

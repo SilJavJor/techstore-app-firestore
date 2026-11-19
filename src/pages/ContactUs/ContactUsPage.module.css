@@ -1,0 +1,44 @@
+/* ==========================================================================
+  Estilos de ContactUsForm.module.css
+  Descripción: Estilos para la Pagina de contacto.
+  Autor: Silvio Jorda
+  Fecha: 2026-10-16
+========================================================================== */
+
+.card {
+  background-color: #1a1a1a;
+  border: 1px solid #2a2a2a !important;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 580px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+}
+
+.title {
+  color: #8de2d6;
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.6rem;
+}
+
+.subtitleContainer {
+  text-align: center;
+  margin-bottom: 1.8rem;
+}
+
+.subtitle {
+  color: #a0a0a0;
+  font-size: 0.92rem;
+  margin: 0.2rem 0;
+  line-height: 1.4;
+}
+
+.label {
+  color: #cccccc;
+  font-size: 0.88rem;
+  font-weight: 500;
+  margin-bottom: 0.4rem;
+  display: block;
+}

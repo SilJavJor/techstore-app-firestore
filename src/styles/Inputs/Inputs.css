@@ -1,0 +1,82 @@
+/* ==========================================================================
+  Inputs.css
+  Descripcion: Estilos unificados para los Inputs (Textos, Selects, TextAreas)
+    de la aplicacion.
+  Autor: Silvio Jorda
+  Date: 2026-09-30
+========================================================================== */
+
+/* Textos, selects, textareas, etc. */
+.input {
+  background-color: #111111 !important;
+  border: 1px solid #444444 !important;
+  color: #ffffff !important;
+  padding: 0.7rem 0.9rem !important;
+  font-size: 0.95rem !important;
+}
+
+/* En Foco */
+.input:focus {
+  border-color: #8de2d6 !important;
+  box-shadow: 0 0 0 0.25rem rgba(141, 226, 214, 0.25) !important;
+}
+
+/* Placeholder */
+.input::placeholder {
+  color: #555555 !important;
+  font-weight: 400;
+  opacity: 1;
+}
+
+/* Solo lectura */
+.readOnlyInput {
+  background-color: #0d0d0d !important;
+  border-color: #2a2a2a !important;
+  color: #8de2d6 !important;
+  font-weight: 700 !important;
+  cursor: not-allowed;
+}
+
+.input[type="file"]::file-selector-button {
+  background-color: #8de2d6 !important;
+  color: #111111 !important;
+  border: none !important;
+  padding: 0.35rem 0.85rem !important;
+  border-radius: 6px !important;
+  font-weight: 600 !important;
+  font-size: 0.88rem !important;
+  margin-left: 3px !important;
+  margin-right: 0.8rem !important;
+  cursor: pointer !important;
+  transition: background-color 0.2s ease, transform 0.1s ease !important;
+}
+
+.input[type="file"]::file-selector-button:hover {
+  background-color: #72c8bc !important;
+}
+
+.input[type="file"]::-webkit-file-upload-button {
+  background-color: #8de2d6 !important;
+  color: #111111 !important;
+  border: none !important;
+  padding: 0.35rem 0.85rem !important;
+  border-radius: 6px !important;
+  font-weight: 600 !important;
+  font-size: 0.88rem !important;
+  margin-left: 3px !important;
+  margin-right: 0.8rem !important;
+  cursor: pointer !important;
+  transition: background-color 0.2s ease, transform 0.1s ease !important;
+}
+
+.input[type="file"]::-webkit-file-upload-button:hover {
+  background-color: #72c8bc !important;
+}
+
+/* Error */
+.errorText {
+  color: #ff4d4f;
+  font-size: 0.8rem;
+  margin-top: 0.2rem;
+  display: block;
+}

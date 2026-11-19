@@ -1,0 +1,112 @@
+/* ==========================================================================
+  Estilos de LoginPage.module.css
+  Descripción: Estilos complementarios para la vista de Login.
+  Autor: Silvio Jorda
+  Date: 2026-09-30
+========================================================================== */
+
+.remember {
+  cursor: pointer;
+}
+
+.rememberText {
+  font-size: 0.88rem;
+  color: #cccccc;
+}
+
+.forgotBtn {
+  background: none;
+  border: none;
+  color: #8de2d6;
+  font-size: 0.88rem;
+  cursor: pointer;
+  padding: 0;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.forgotBtn:hover {
+  text-decoration: underline;
+  opacity: 0.85;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 1.8rem 0;
+  color: #666666;
+  font-size: 0.85rem;
+}
+
+.divider::before,
+.divider::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #333333;
+}
+
+.divider span {
+  padding: 0 0.75rem;
+}
+
+.footerText {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #aaaaaa;
+  margin-top: 1.8rem;
+  margin-bottom: 0;
+}
+
+.remember {
+  cursor: pointer;
+}
+
+.rememberText {
+  font-size: 0.88rem;
+  color: #cccccc;
+}
+
+.forgotBtn {
+  background: none;
+  border: none;
+  color: #8de2d6;
+  font-size: 0.88rem;
+  cursor: pointer;
+  padding: 0;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.forgotBtn:hover {
+  text-decoration: underline;
+  opacity: 0.85;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 1.8rem 0;
+  color: #666666;
+  font-size: 0.85rem;
+}
+
+.divider::before,
+.divider::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #333333;
+}
+
+.divider span {
+  padding: 0 0.75rem;
+}
+
+.footerText {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #aaaaaa;
+  margin-top: 1.8rem;
+  margin-bottom: 0;
+}

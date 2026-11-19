@@ -1,0 +1,14 @@
+/* ==========================================================================
+  Estilos de Layout.module.css
+  Descripcion: Estilos para el (Layout).   
+  Author: Silvio Jorda
+  Date: 2026-09-30
+========================================================================== */
+
+.layoutContainer {
+  background-color: #f8f9fa;
+}
+
+.mainContent {
+  width: 100%;
+}

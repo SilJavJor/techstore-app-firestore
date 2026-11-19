@@ -1,0 +1,64 @@
+[
+  {
+    "id": 1,
+    "name": "Intel",
+    "slug": "intel",
+    "description": "",
+    "imageURL": "",
+    "createdAt": ""
+  },
+
+  {
+    "id": 2,
+    "name": "AMD",
+    "slug": "amd",
+    "description": "",
+    "imageURL": "",
+    "createdAt": ""
+  },
+
+  {
+    "id": 3,
+    "name": "Asus",
+    "slug": "asus",
+    "description": "",
+    "imageURL": "",
+    "createdAt": ""
+  },
+
+  {
+    "id": 4,
+    "name": "MSI",
+    "slug": "msi",
+    "description": "",
+    "imageURL": "",
+    "createdAt": ""
+  },
+
+  {
+    "id": 5,
+    "name": "GIGABYTE",
+    "slug": "gigabyte",
+    "description": "",
+    "imageURL": "",
+    "createdAt": ""
+  },
+
+  {
+    "id": 6,
+    "name": "KINGSTON",
+    "slug": "kingston",
+    "description": "",
+    "imageURL": "",
+    "createdAt": ""
+  },
+
+  {
+    "id": 7,
+    "name": "ADATA",
+    "slug": "adata",
+    "description": "",
+    "imageURL": "",
+    "createdAt": ""
+  }
+]

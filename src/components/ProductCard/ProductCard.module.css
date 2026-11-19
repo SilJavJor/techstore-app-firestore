@@ -1,0 +1,120 @@
+/* ==========================================================================
+  Estilos de ProductCard.module.css
+  Descripcion: Estilos para las tarjetas de productos (ProductCard),
+    estilo, relleno turquesa, delineado.
+  Autor: Silvio Jorda
+  Date: 2026-09-30
+========================================================================== */
+
+.card {
+  background-color: #1a1a1a !important;
+  border: 1px solid #2a2a2a !important;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease !important;
+  color: #ffffff;
+  /* min-width: calc(100% + 10px); */ 
+  width: 100%;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  border-color: #8de2d6 !important;
+  box-shadow: 0 10px 25px rgba(141, 226, 214, 0.2), 0 6px 16px rgba(0, 0, 0, 0.4) !important;
+}
+
+.favoriteBtn {
+  color: #8de2d6 !important;
+  text-decoration: none !important;
+  background: rgba(0, 0, 0, 0.55) !important;
+  border-radius: 50% !important;
+  margin: 8px;
+  width: 36px;
+  height: 36px;
+  padding: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border: none !important;
+  line-height: 1 !important;
+  transition: transform 0.2s ease, background-color 0.2s ease !important;
+}
+
+.favoriteBtn:hover {
+  transform: scale(1.1);
+  background: rgba(0, 0, 0, 0.8) !important;
+}
+
+.favoriteBtn svg {
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+
+.imageLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #111111;
+  width: 100% !important;
+  height: 180px;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+}
+
+.image {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  padding: 0.75rem;
+  transition: transform 0.3s ease;
+}
+
+.imageLink:hover .image {
+  transform: scale(1.06);
+}
+
+.title {
+  color: #ffffff !important;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.price {
+  color: #8de2d6 !important;
+}
+
+.stockText {
+  color: #aaaaaa;
+}
+
+.stockBadgeIn {
+  border: 1px solid #8de2d6;
+  color: #8de2d6;
+}
+
+/* Marca */
+.brandBadge {
+  background-color: rgba(17, 17, 17, 0.85) !important;
+  color: #8de2d6 !important;
+  border: 1px solid rgba(141, 226, 214, 0.4) !important;
+  font-weight: 600;
+  font-size: 0.75rem;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  backdrop-filter: blur(4px); /* Efecto cristalino sobre la imagen */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+  z-index: 2;
+  transition: all 0.2s ease-in-out;
+}
+
+.card:hover .brandBadge {
+  border-color: #8de2d6 !important;
+  color: #ffffff !important;
+  background-color: #1a1a1a !important;
+}

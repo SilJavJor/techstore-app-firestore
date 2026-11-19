@@ -1,0 +1,44 @@
+/* ==========================================================================
+  Estilos: RegisterPage.module.css
+  Descripción: Estilos específicos para la Página de Registro de la aplicación.
+  Autor: Silvio Jorda
+  Fecha: 2026-11-04
+========================================================================== */
+
+.terms {
+  cursor: pointer;
+  margin-top: 0.3rem;
+}
+
+.termsText {
+  font-size: 0.88rem;
+  color: #cccccc;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 1.8rem 0;
+  color: #666666;
+  font-size: 0.85rem;
+}
+
+.divider::before,
+.divider::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #333333;
+}
+
+.divider span {
+  padding: 0 0.75rem;
+}
+
+.footerText {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #aaaaaa;
+  margin-top: 1.8rem;
+  margin-bottom: 0;
+}

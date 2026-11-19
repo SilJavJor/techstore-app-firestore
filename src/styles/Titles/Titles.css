@@ -1,0 +1,25 @@
+/* ==========================================================================
+  Titles.css
+  Descripcion: Estilos unificados para los Tutulos, Subtitulos. etc. de la 
+    aplicacion.
+  Autor: Silvio Jorda
+  Date: 2026-09-30
+========================================================================== */
+
+/* Títulos */
+.title {
+  color: #8de2d6;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+/* Subtítulos */
+.subtitle {
+  font-size: 0.95rem;
+  text-align: center;
+  color: #aaaaaa;
+  margin-bottom: 2rem;
+  line-height: 1.4;
+}

@@ -33,6 +33,7 @@ export function ProductsProvider({ children }) {
 
   const [errorProducts, setErrorProducts] = useState(null);
 
+  {/*
   useEffect(() => {
     const savedProducts = localStorage.getItem('techstore_products');
 
@@ -68,6 +69,23 @@ export function ProductsProvider({ children }) {
         setLoadingProducts(false);
       });
   }, []);
+  */}
+
+  useEffect(() => {
+  const loadProducts = async () => {
+    setLoading(true);
+    try {
+      const data = await fetchProducts();
+      setProducts(data);
+    } catch (error) {
+      console.error('Error al cargar productos desde Firestore:', error);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  loadProducts();
+}, []);
 
   const saveProductsLocally = (updatedList) => {
     setProducts(updatedList);
